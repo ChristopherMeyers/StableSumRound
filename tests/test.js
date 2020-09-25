@@ -36,6 +36,8 @@ describe('No Adjustments', () => {
     assert.deepStrictEqual(stableSumRound(-2, [1311.11, 2388.88, 3300]), [1300, 2400, 3300]);
   });
   it('Round a single value', () => {
+    assert.deepStrictEqual(stableSumRound(0, [13.25]), [13]);
+    assert.deepStrictEqual(stableSumRound(0, [13.5]), [13]);
     assert.deepStrictEqual(stableSumRound(0, [13.75]), [14]);
   });
 });
