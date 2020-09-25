@@ -37,7 +37,7 @@ describe('No Adjustments', () => {
   });
   it('Round a single value', () => {
     assert.deepStrictEqual(stableSumRound(0, [13.25]), [13]);
-    assert.deepStrictEqual(stableSumRound(0, [13.5]), [13]);
+    assert.deepStrictEqual(stableSumRound(0, [13.5]), [14]);
     assert.deepStrictEqual(stableSumRound(0, [13.75]), [14]);
   });
 });
