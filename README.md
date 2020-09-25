@@ -11,6 +11,8 @@ The stable sum rounder is a function that takes in a set of values to be rounded
 | **Total** | 99.99%            | 100%      |
 
 ```js
-stableSumRound(2, [33.3333, 33.3333, 33.3333])
+stableSumRound(2, [33.3333, 33.3333, 33.3333]);
 //returns [33.34, 33.33, 33.33]
+stableSumRound(0, [1.5, 1.5, 1.5, 1.5]);
+//returns [1, 2, 1, 2]
 ```

@@ -25,6 +25,13 @@ describe('Adjust Down', () => {
   });
 });
 
+describe('Adjust Mixed', () => {
+  it('Should round some values down and some values up', () => {
+    assert.deepStrictEqual(stableSumRound(0, [1.5, 1.5, 1.5, 1.5]), [1, 1, 2, 2]);
+    assert.deepStrictEqual(stableSumRound(0, [1.5, 1.6, 1.4, 1.5]), [1, 2, 1, 2]);
+  })
+})
+
 describe('No Adjustments', () => {
   it('Round to whole numbers', () => {
     assert.deepStrictEqual(stableSumRound(0, [13, 23.25, 33.75]), [13, 23, 34]);
