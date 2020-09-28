@@ -1,5 +1,5 @@
 {
-  "name": "StableSumRound",
+  "name": "stable-sum-round",
   "description": "Round a set of values ensuring the sum of the rounded numbers is equal to the rounded sum",
   "scripts": {
     "test": "mocha tests/"
