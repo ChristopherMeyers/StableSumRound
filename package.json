@@ -4,7 +4,24 @@
   "scripts": {
     "test": "mocha tests/"
   },
-  "dependencies": {
+  "dependencies": {},
+  "version": "1.0.0",
+  "main": "lib/StableSumRound.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "devDependencies": {
     "mocha": "*"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherMeyers/StableSumRound.git"
+  },
+  "author": "Chris Meyers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChristopherMeyers/StableSumRound/issues"
+  },
+  "homepage": "https://github.com/ChristopherMeyers/StableSumRound#readme"
 }
